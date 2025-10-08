@@ -39,7 +39,6 @@ project/
 
 ```bash
 git clone https://github.com/jineshgandhi79/HTTP-Server
-cd project
 ```
 
 ### 2. Create Virtual Environment (Optional but Recommended)
