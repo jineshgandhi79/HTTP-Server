@@ -1,0 +1,10 @@
+import os
+
+HOST = "127.0.0.1"
+PORT = 8080
+MAX_THREADS = 10
+RESOURCE_DIR = os.path.abspath("resources")
+UPLOAD_DIR = os.path.join(RESOURCE_DIR, "uploads")
+CONNECTION_TIMEOUT = 30
+MAX_PERSISTENT_REQUESTS = 100
+BUFFER_SIZE = 8192

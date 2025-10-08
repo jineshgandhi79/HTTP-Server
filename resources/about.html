@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Multi-threaded HTTP Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fefefe;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2196F3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        button {
+            background: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #1976D2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About This Server</h1>
+    </header>
+    <main>
+        <h2>Server Overview</h2>
+        <p>This multi-threaded HTTP server is implemented in Python using TCP sockets. It can handle multiple concurrent clients, serve static HTML pages, images, text files, and process JSON POST requests.</p>
+        <p>The server uses a thread pool to manage client connections efficiently and implements basic security features like path validation and host header checks.</p>
+        <button onclick="window.location='/'">Go to Home</button>
+    </main>
+</body>
+</html>
