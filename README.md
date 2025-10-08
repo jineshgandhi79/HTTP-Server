@@ -38,7 +38,7 @@ project/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/jineshgandhi79/HTTP-Server
 cd project
 ```
 
